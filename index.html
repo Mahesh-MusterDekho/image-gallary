@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    img {
+      width: 150px;
+      height: auto;
+      border-radius: 8px;
+    }
+    .filename {
+      margin-top: 5px;
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Image Gallery</h1>
+  <div class="gallery">
+    <div class="image-container">
+      <img src="2_Chimney_Repair.webp" alt="Image 1">
+      <div class="filename">2_Chimney_Repair</div>
+    </div>
+    <div class="image-container">
+      <img src="images/image2.jpg" alt="Image 2">
+      <div class="filename">image2.jpg</div>
+    </div>
+    <div class="image-container">
+      <img src="images/image3.jpg" alt="Image 3">
+      <div class="filename">image3.jpg</div>
+    </div>
+    <!-- Add more images as needed -->
+  </div>
+
+</body>
+</html>
